@@ -342,17 +342,4 @@ const earthquakes = {
 	]
 }
 
-export default class earthquakes extends Component {
-  render() {
-    let quakes = earthquakes.map((result) => {
-      return(
-        <div key={result.id}>
-          <h1>{result.location}</h1>
-        </div>
-      )
-    })
-
-
-
-  }
-}
+export default earthquakes;

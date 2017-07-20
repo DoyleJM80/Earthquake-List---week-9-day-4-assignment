@@ -3,6 +3,7 @@ import moment from 'moment';
 import '../styles/App.css';
 
 import EarthquakeInfo from './EarthquakeInfo.js';
+import EarthquakeList from './EarthquakeList.js';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
           </div>
         </div>
         <EarthquakeInfo />
+        <EarthquakeList />
       </div>
     );
   }
